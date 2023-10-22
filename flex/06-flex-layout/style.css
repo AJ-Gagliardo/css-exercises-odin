@@ -25,3 +25,46 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+
+
+/* ANSWER */
+
+html{
+  /* max-width:12000px;; */
+}
+
+.header{
+  display:flex;
+  justify-content: space-between;
+  color:antiquewhite
+}
+
+.left-links{
+  display:flex;
+gap:3rem;
+}
+
+.right-links{
+  display:flex;
+gap:3rem;
+}
+
+li a{
+text-decoration: none;
+color:gray;
+font-weight:600;
+font-size:22px;
+}
+
+li{
+  list-style: none;
+}
+
+
+
+
+.footer{
+  display:flex;
+  justify-content:space-between;
+}
