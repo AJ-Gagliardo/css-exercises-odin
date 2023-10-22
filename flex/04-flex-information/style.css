@@ -24,3 +24,36 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.title{
+display:flex;
+align-items:center;
+justify-content: center;
+/* width:1000px; */
+}
+.container{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  /* width:1000px; */
+  gap:40px;
+  
+}
+.flex-stuff{
+  max-width:250px;
+  justify-content:center
+}
+
+.body{ 
+}
+
+.flex-stuff{
+  flex:1 1 auto;
+}
+
+.text{}
+
+body{
+  text-align:center;
+  /* justify-content:center */
+}
