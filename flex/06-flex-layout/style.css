@@ -62,7 +62,29 @@ li{
 }
 
 
+.content{
+  /* display:flex; */
+/* justify-content: center;
+left-margin:auto;
+right-margin:auto; */
 
+/* border:5px solid;
+width:50%;
+margin:auto; */
+justify-content:center;
+text-align:center;
+}
+
+.content *{
+/* margin:auto; */
+}
+
+body{
+  display:flex;
+  flex-direction: column;
+  align-content:center;
+ 
+}
 
 .footer{
   display:flex;

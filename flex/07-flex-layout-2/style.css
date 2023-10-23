@@ -27,3 +27,87 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+
+/* Answer */
+
+.header{
+  font-size:24px;
+  font-weight:700;
+  padding:8px;
+}
+
+.content{
+  display:flex;
+  /* flex-direction: column; */
+  /* max-width:1000px; */
+}
+body{
+  /* max-width:1200px; */
+}
+
+.cards{
+  max-width:1000px;
+}
+
+.first-row{
+  display:flex;
+}
+
+.second-row{
+  display:flex;
+}
+
+.card{
+  flex:1;
+  margin:25px;
+  flex-shrink
+}
+
+.sidebar{
+  padding-right:10%;
+  display:flex;
+  flex-direction: column;  
+}
+
+.side-links{
+  max-width:1000px;
+}
+
+
+
+.sidebar{
+  background-color:
+}
+.sidebar li{
+  list-style: none;
+  width:8rem;
+}
+
+.sidebar a{
+  text-decoration: none;
+  color:white;
+}
+
+.sidebar ul{
+  /* display:flex;
+  flex-direction: column; */
+left-margin:-25px;
+}
+
+ul{
+    /* display:flex;
+    flex-direction: column;
+    text-align: left; */
+
+}
+
+li{
+  margin-bottom:22px;
+  font-size:16px;
+}
+
+.footer{
+
+ text-align: center;
+}
