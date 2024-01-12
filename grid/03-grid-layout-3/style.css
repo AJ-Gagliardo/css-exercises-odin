@@ -89,3 +89,47 @@
   font-size: 13px;
   font-weight: normal;
 }
+
+/* my code / answer */
+
+.container{
+  display:grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows:1fr 1fr 5fr 1fr;
+
+
+}
+
+div .header{
+  grid-column:1/3;
+  display:grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.menu ul{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  grap: 5%  ;
+  list-style: none;
+}
+.logo{
+  justify-self: start;
+
+}
+div .sidebar{
+  grid-row:2/6;
+  display:grid;
+  gap:5%;
+}
+
+.nav ul{
+  display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+list-style: none;
+}
+
+div .article{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap:10px;
+}
